@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* cistom styles */
+ .ima {
+  width: 200px;
+  height: 200px;
+  border: 4px solid rgba(255, 166, 0, 0.548);
+  margin: 10px;
+  border-radius: 10px;
+
+ }
+ .flex {
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .flex25{
+  flex: 0 1 25%;
+ }
+ .flex50{
+  flex: 0 1 50%;
+ }
+ .article {
+  display: flex;
+  width: 45%;
+  margin: 10px;
+ }
+ h2 {
+  font-size: 20px;
+ }
+ p {
+  font-size: 16px;
+  line-height: 1.5;
+ }
+ .text {
+margin-left: 20px;
+margin-bottom: 10px;
+ }
+ .title {
+  display: flex;
+ }
+ .price {
+  margin-left: 60px;
+  color: blueviolet;
+ }
+ .line {
+  border: 1px dashed rgba(0, 0, 0, 0.247);
+
+ }
+
+
+ .active_btn {
+   background-color: black;
+   color: white;
+   outline: 0;
+   border: 0;
+   border-radius: 4px;
+ }
+
+ button {
+  padding: 10px;
+  background-color: aquamarine;
+  margin-left: 20px;
+  border: none;
+ }
+ .btn {
+  text-align: center;
+ }
+ .dash {
+  width: 300px;
+ }
